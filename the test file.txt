@@ -1,1 +1,4 @@
 first init. add a banker.
+
+#dev 
+	1.some apples.

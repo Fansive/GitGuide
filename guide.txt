@@ -30,6 +30,9 @@
 #远程操作
 	1.关联远程库: git remote add <remote,一般默认origin> <url>
 	2.本地推送到远程: git push (-u)<remote> <branch>   带上-u参数可将本地master分支与远程的master分支自动关联
+	3.从远程库获取数据但不合并: git fetch <remote> <branch>(若省略则获取所有分支)
+		fetch后,使用git merge <remote> <branch>合并分支
+	4.从远程库获取数据并自动合并至当前分支: git pull <remote> <branch>	 相当于fetch+merge 
 
 #其他
 	1.查看仓库状态: git status

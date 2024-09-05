@@ -1,5 +1,6 @@
 #仓库操作
-	1.初始化仓库: git init
+	1.初始化空仓库: git init
+	2.克隆远程库: git clone <url>
 	2.删除仓库: rm -rf .git
 
 #添加与提交
@@ -25,6 +26,10 @@
 	2.切换分支: git switch <branch>
 	3.删除分支: git branch -d <branch>
 	4.合并指定分支到当前分支: git merge <branch>
+
+#远程操作
+	1.关联远程库: git remote add <remote,一般默认origin> <url>
+	2.本地推送到远程: git push (-u)<remote> <branch>   带上-u参数可将本地master分支与远程的master分支自动关联
 
 #其他
 	1.查看仓库状态: git status

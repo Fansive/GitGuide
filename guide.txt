@@ -19,6 +19,8 @@
 	2.撤销暂存区中指定文件的修改(还未提交): git reset HEAD <filename>
 	3.回退至上次提交: git reset --hard HEAD^
 	4.回退至指定提交: git reset --hard <commit id,可只写前几位>
+	5.删除添加到暂存区的文件(但不改变工作区的文件): git reset <filename>
+	5.删除所有添加到暂存区的文件(但不改变工作区的文件): git reset
 
 #分支操作
 	1.创建新分支: git branch <new branch>
